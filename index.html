@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Domen sotiladi | Domain For Sale</title>
+  <meta name="description" content="Ushbu domen sotiladi. Domen bo‘yicha bog‘lanish uchun telefon, Telegram yoki email orqali murojaat qiling.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Domen sotiladi | Domain For Sale">
+  <meta property="og:description" content="Ushbu domen sotiladi. Narx kelishiladi.">
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background:
+        radial-gradient(circle at 50% 0%, rgba(255,255,255,.08), transparent 38%),
+        #08090c;
+      color: #f5f5f5;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .card {
+      width: min(760px, 100%);
+      padding: clamp(34px, 7vw, 68px) clamp(24px, 6vw, 64px);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 28px;
+      background: rgba(17,18,23,.88);
+      box-shadow: 0 30px 90px rgba(0,0,0,.45);
+      text-align: center;
+      backdrop-filter: blur(18px);
+    }
+    .label {
+      margin: 0 0 18px;
+      font-size: 14px;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: #a9adb8;
+    }
+    .domain {
+      margin: 0;
+      font-size: clamp(36px, 8vw, 76px);
+      line-height: 1;
+      letter-spacing: -.045em;
+      font-weight: 800;
+      overflow-wrap: anywhere;
+    }
+    .line { width: 56px; height: 1px; margin: 28px auto; background: rgba(255,255,255,.24); }
+    .langs { display: grid; gap: 8px; color: #d8d9de; font-size: clamp(17px, 2.7vw, 22px); }
+    .note { margin: 22px 0 0; color: #8f939e; font-size: 14px; }
+    .contacts { margin-top: 34px; display: grid; gap: 10px; }
+    .contact {
+      display: block;
+      padding: 14px 18px;
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: 14px;
+      color: #fff;
+      text-decoration: none;
+      background: rgba(255,255,255,.045);
+      transition: transform .18s ease, background .18s ease, border-color .18s ease;
+    }
+    .contact:hover { transform: translateY(-2px); background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.2); }
+    .contact span { color: #9fa3ad; margin-right: 7px; }
+    .footer { margin-top: 26px; color: #656975; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <p class="label">Premium domain</p>
+    <h1 class="domain" id="domain">Domain</h1>
+    <div class="line"></div>
+    <section class="langs" aria-label="Domain for sale">
+      <div>Domen sotiladi</div>
+      <div>Домен продаётся</div>
+      <div>This Domain Is For Sale</div>
+    </section>
+    <p class="note">Narx kelishiladi. Taklif va savollar uchun bog‘laning.</p>
+    <nav class="contacts" aria-label="Contact">
+      <a class="contact" href="tel:+998504440088"><span>Telefon</span>+998 50 444 00 88</a>
+      <a class="contact" href="https://t.me/diyor_okasi" target="_blank" rel="noopener"><span>Telegram</span>@diyor_okasi</a>
+      <a class="contact" href="https://t.me/d1yor_5500" target="_blank" rel="noopener"><span>Telegram</span>@d1yor_5500</a>
+      <a class="contact" href="mailto:diyorbekquvondiqov93@gmail.com"><span>Email</span>diyorbekquvondiqov93@gmail.com</a>
+    </nav>
+    <div class="footer">Direct sale • Serious inquiries only</div>
+  </main>
+  <script>
+    const host = (window.location.hostname || '').replace(/^www\./, '');
+    const domain = host || 'Domain';
+    document.getElementById('domain').textContent = domain;
+    document.title = `${domain} | Domen sotiladi | Domain For Sale`;
+    document.querySelector('meta[name="description"]').setAttribute('content', `${domain} domeni sotiladi. Narx kelishiladi. Bog‘lanish uchun telefon, Telegram yoki email orqali murojaat qiling.`);
+    document.querySelector('meta[property="og:title"]').setAttribute('content', `${domain} | Domen sotiladi`);
+    document.querySelector('meta[property="og:description"]').setAttribute('content', `${domain} domeni sotiladi. Narx kelishiladi.`);
+  </script>
+</body>
+</html>
